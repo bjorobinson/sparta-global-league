@@ -11,6 +11,14 @@ body, table{
   padding-bottom:10px;
 }
 
+#bs-example-navbar-collapse-1 > ul > li > a{
+  color:white;
+}
+
+#bs-example-navbar-collapse-1 > ul > li > a:hover{
+  background: rgb(249,0,85);
+}
+
 body > .container{
   background: white;
   padding-left: 0px;
@@ -35,8 +43,14 @@ p {
   color: green;
 }
 
-body > div > div:nth-child(2) > div > table > tbody{
-  border-color:pink;
+.table{
+  border: 2px rgb(28,28,26,0.9) solid;
+  margin-bottom: 0px;
+}
+
+thead{
+  background-color:rgb(28,28,26);
+  border-bottom: 3px solid rgb(28,28,26);
 }
 
 /* First two should be green ( or a colour that shows it's good ) */
