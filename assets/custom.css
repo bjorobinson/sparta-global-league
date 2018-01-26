@@ -1,3 +1,16 @@
+body{
+  background: pink; /*color WIP*/
+}
+
+.navbar {
+  background:#d3d3d3; /*color WIP*/
+}
+
+body > .container{
+  background: white;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
 .fa-caret-down {
   color: red;
@@ -11,7 +24,7 @@
 /* First two should be green ( or a colour that shows it's good ) */
 tr.contestant:nth-child(1),
 tr.contestant:nth-child(2) {
-  background-color: #9aeda7;
+  background-color: rgba(154,237,167,0.6); /*Base:#9aeda7*/
 }
 
 
@@ -20,7 +33,7 @@ tr.contestant:nth-child(3),
 tr.contestant:nth-child(4),
 tr.contestant:nth-child(5),
 tr.contestant:nth-child(6) {
-  background-color: #f1f442;
+  background-color: rgba(241,244,66,0.6); /*Base:#f1f442*/
 }
 
 
@@ -28,5 +41,5 @@ tr.contestant:nth-child(6) {
 tr.contestant:nth-last-child(1),
 tr.contestant:nth-last-child(2),
 tr.contestant:nth-last-child(3) {
-  background-color: #ff8484;
+  background-color: rgba(255,132,132,0.6); /*Base:#ff8484*/
 }
