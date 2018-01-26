@@ -1,0 +1,77 @@
+body, table{
+  background: rgba(28,28,26,0.9);
+  color: white;
+}
+
+.navbar {
+  background:rgb(28,28,26);
+  border:rgb(28,28,26);
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+#bs-example-navbar-collapse-1 > ul > li > a{
+  color:white;
+}
+
+#bs-example-navbar-collapse-1 > ul > li > a:hover{
+  background: rgb(249,0,85);
+}
+
+body > .container{
+  background: white;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.fa-caret-down {
+  color: red;
+}
+
+#notice{
+  font-size:20px;
+  background: rgba(28,28,26,0.9);
+}
+
+p {
+  margin-bottom:0px;
+}
+
+
+.fa-caret-up {
+  color: green;
+}
+
+.table{
+  border: 2px rgb(28,28,26,0.9) solid;
+  margin-bottom: 0px;
+}
+
+thead{
+  background-color:rgb(28,28,26);
+  border-bottom: 3px solid rgb(28,28,26);
+}
+
+/* First two should be green ( or a colour that shows it's good ) */
+tr.contestant:nth-child(1),
+tr.contestant:nth-child(2) {
+  background-color: rgba(154,237,167,0.6); /*Base:#9aeda7*/
+}
+
+
+/* Next four should be orange ( or average colour ) */
+tr.contestant:nth-child(3),
+tr.contestant:nth-child(4),
+tr.contestant:nth-child(5),
+tr.contestant:nth-child(6) {
+  background-color: rgba(241,244,66,0.6); /*Base:#f1f442*/
+}
+
+
+/* last two should be red ( or a bad colour ) */
+tr.contestant:nth-last-child(1),
+tr.contestant:nth-last-child(2),
+tr.contestant:nth-last-child(3) {
+  background-color: rgba(255,132,132,0.6); /*Base:#ff8484*/
+}
