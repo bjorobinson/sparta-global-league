@@ -1,11 +1,14 @@
-body{
-  background: pink; /*color WIP*/
+body, table{
+  background: rgba(28,28,26,0.9); /*color WIP*/
+  color: white;
 }
 
 .navbar {
-  background:#d3d3d3; /*color WIP*/
-  border:#d3d3d3;
+  background:rgb(28,28,26); /*color WIP*/
+  border:rgb(28,28,26);
   text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;
 }
 
 body > .container{
@@ -18,9 +21,22 @@ body > .container{
   color: red;
 }
 
+#notice{
+  font-size:20px;
+  background: rgba(28,28,26,0.9);
+}
+
+p {
+  margin-bottom:0px;
+}
+
 
 .fa-caret-up {
   color: green;
+}
+
+body > div > div:nth-child(2) > div > table > tbody{
+  border-color:pink;
 }
 
 /* First two should be green ( or a colour that shows it's good ) */
