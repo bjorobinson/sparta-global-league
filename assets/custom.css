@@ -4,6 +4,8 @@ body{
 
 .navbar {
   background:#d3d3d3; /*color WIP*/
+  border:#d3d3d3;
+  text-align:center;
 }
 
 body > .container{
